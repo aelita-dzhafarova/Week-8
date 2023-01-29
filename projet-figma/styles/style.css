@@ -1,0 +1,178 @@
+@font-face { 
+    font-family: 'Roboto Slab';
+    src : url('../assets/fonts/Roboto_Slab/static/RobotoSlab-Light.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: 'Intro';
+    src : url('../assets/fonts/intro/Intro.otf') format('opentype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    margin: 50px 74px 0 74px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.basket {
+    width: 115px;
+    height: 38px;
+    font-family: 'Intro', sans-serif;
+    font-size: 0.8em;
+    color: white;
+    background-color: #5222D0;
+    border-radius: 100px;
+    border: none;
+}
+
+.landingpage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    padding-top: 79px;
+    padding-left: 126px;
+}
+
+.text h1 {
+    font-family: 'Intro', sans-serif;
+    font-size: 4.7em;
+    color: black;
+}
+
+.text p {
+    padding-top: 30px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.6em;
+    color: black;
+}
+
+.buy {
+    Width: 270px;
+    Height: 84px;
+    margin-top: 50px;
+    font-family: 'Intro', sans-serif;
+    font-size: 2em;
+    color: white;
+    background-color: #5222D0;
+    border-radius: 100px;
+    border: none;
+}
+
+h2 {
+    padding-top: 90px;
+    padding-left: 125px;
+    font-family: 'Intro', sans-serif;
+    font-size: 5em;
+    font-weight: 400;
+    line-height: 72px;
+    color: black;
+}
+
+.opportunity {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 1fr;
+    gap: 30px 70px;
+    margin-top: 70px;
+    margin-left: 127px;
+    margin-right: 85px;
+    justify-content: space-between;
+}
+
+.element {
+    width: 365px;
+}
+
+.element__title {
+    padding-top: 40px;
+    font-family: 'Intro', sans-serif;
+    font-size: 1.5em;
+    color: black;
+}
+
+.element__text {
+    padding-top: 20px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+.form {
+    width: 365px;
+    height: 233px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #EC615B;
+}
+
+.form__title {
+    margin-top: 25px;
+    font-family: 'Intro', sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+input {
+    width: 323px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+::placeholder {
+    padding-left: 14px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.6em;
+    color: black;
+}
+
+.form__button {
+    width: 135px;
+    height: 38px;
+    margin-top: 23px;
+    font-family: 'Intro', sans-serif;
+    font-size: 0.8em;
+    color: white;
+    background-color: #5222D0;
+    border-radius: 100px;
+    border: none;
+}
+
+.menu {
+    padding-top: 86px; 
+    padding-left: 126px;
+    padding-bottom: 80px;
+}
+
+.menu__page {
+    display: inline;
+    list-style: none;
+    margin-right: 22px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.2em;
+}
+
+/* modifier for active page */
+.menu__page-active {
+    color: #5222D0;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
